@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/slider.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <title>Main</title>
+</head>
+
+<body>
+  <!-- drop_menu_for_mobile -->
+
+  <ul class="nav_bar">
+    <li><a href="#slider" class="scroll-to">Шапка</a></li>
+    <li><a href="#our_services" class="scroll-to">Преподаватели</a></li>
+    <li><a href="#prices" class="scroll-to">Цены</a></li>
+    <li><a href="#questions" class="scroll-to">Вопросы</a></li>
+    <li><a href="#contacts" class="scroll-to">Контакты</a></li>
+  </ul>
+
+  <!-- drop menu  -->
+
+  <div class="drop_modal_form">
+    <div class="close_wrp">
+      <p>close</p>
+      <img class="close_modal_form" src="img/icons/close_modal_form.svg" />
+    </div>
+    <div class="container">
+      <h3>Напишите нам для бесплатной консультации</h3>
+      <form action="form.php" method="post" class="application_form">
+        <div class="labels">
+          <label>
+            <p class="your_name">Ваше имя</p>
+            <input type="text" value size="40" name="name" id="name" />
+          </label>
+          <label>
+            <p class="your_phone">Ваш телефон</p>
+            <input type="tel" value size="40" name="phone" id="tel" />
+          </label>
+          <label>
+            <p class="your_message">Пожелания/e-mail/впечатления</p>
+            <textarea name="message" cols="100" rows="1"> </textarea>
+          </label>
+        </div>
+        <div class="form_btn_wrp">
+          <div class="btn_consultation_send_data">
+            <p>Отправить</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- header  -->
+
+  <header class="site_header">
+    <img class="site_logo" src="./img/logo.png" alt="logo" />
+    <ul>
+      <li><a href="#slider" class="scroll-to">Шапка</a></li>
+
+      <li><a href="#our_services" class="scroll-to">Преподаватели</a></li>
+      <li><a href="#prices" class="scroll-to">Цены</a></li>
+      <li><a href="#questions" class="scroll-to">Вопросы</a></li>
+      <li><a href="#contacts" class="scroll-to">Контакты</a></li>
+    </ul>
+    <div class="btn_consultation">
+      <p>Хочу с вами</p>
+    </div>
+    <img src="./img/icons/Yoga-OM.svg" alt="" class="om" />
+    <div class="click_menu_wrp">
+      <img class="click_menu_img" src="./img/icons/menu.svg" />
+      <img src="img/icons/close.svg" alt="" class="click_menu_img_close" />
+    </div>
+  </header>
+
+  <!-- slider -->
+
+  <div class="slider_container" id="slider">
+    <!-- <div class="wrp_text_appear">
+        <p id="text_appear_1">YOGA</p>
+        <p id="text_appear_2">DHARMA</p>
+        <p id="text_appear_3">SAMADHI</p>
+      </div> -->
+    <div class="slides_row">
+      <div class="slide" data_attr="1"
+        style="background-image: url(img/meditatsiya-na-vershine-gori-priroda-krasi-2.jpg); background-position: left center;">
+        <div class="sliderContent">
+          <h3>5 дней полной перезагрузки в Карпатах</h3>
+          <h4>ЙОГА · ГОРЫ · СНОУБОРД</h4>
+          <p>10 - 15 февраля</p>
+          <p>Группа 15 человек</p>
+        </div>
+      </div>
+      <div class="slide" data_attr="2" style="background-image: url(img/1403-001.jpg);">
+        <div class="sliderContent">
+          <h3>Какой то продающий текст</h3>
+          <h4>Продолжение продающего текста</h4>
+          <p class="date">детали</p>
+        </div>
+      </div>
+      <div class="slide" data_attr="3" style="background-image: url(img/IMG_3701.jpg);" wellcome>
+        <div class="sliderContent">
+          <h3>Ежедневная йога</h3>
+          <h4>От самых крутых преподов</h4>
+          <p class="date">детали</p>
+        </div>
+      </div>
+    </div>
+    <a class="arrows left"><img src="img/icons/arro-left.svg" alt="" /></a>
+    <a class="arrows right"><img src="img/icons/arro-left.svg" alt="" /></a>
+    <div class="navigation"></div>
+  </div>
+
+  <!-- reloading section -->
+
+  <section class="reloading">
+    <div class="container">
+      <div class="soulReloadingBlock">
+        <h2>Перезагрузка для души и тела</h2>
+        <div class="advantagesBlock">
+          <div class="advantageDiv">
+            <div class="img"><img src="/img/icons/yoga.png" alt="yoga"></div>
+            <ul>
+              <li>Утренняя и вечерняя йога</li>
+              <li>Отстройка асан</li>
+            </ul>
+          </div>
+          <div class="advantageDiv">
+            <div class="img"><img src="/img/icons/map.png" alt="yoga"></div>
+            <div class="img"></div>
+            <ul>
+              <li>Прогулки в горы</li>
+              <li>Экскурсионная программа</li>
+            </ul>
+          </div>
+          <div class="advantageDiv">
+            <div class="img"><img src="/img/icons/mountains.png" alt="yoga"></div>
+            <div class="img"></div>
+            <ul>
+              <li>Поселок Славское</li>
+              <li>Сказочная природа и горные<br /> пейзажи</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- shedule -->
+
+  <section class="shedule">
+    <div class="container">
+      <h2>Программа тура</h2>
+      <div class="sheduleBox">
+        <ul class="sheduleHeader">
+          <li class="active" data-id="content1"><a>Снуборд</a></li>
+          <li data-id="content2"><a>Экскурсии</a></li>
+          <li data-id="content3"><a>Йога</a></li>
+          <li class="backgroundSlide"></li>
+        </ul>
+        <div class="sheduleContent">
+          <div class="contentBox active" id="content1">
+            <div class="text">
+              <h2>Снуборд</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis a officiis voluptates, deleniti numquam
+                itaque ex beatae quae veniam. Et vitae exercitationem non itaque quos eos nesciunt earum nemo doloremque
+                ut, deleniti, possimus esse quam sapiente voluptatibus, maiores quo rerum. Ratione unde quaerat aperiam
+                neque assumenda odio ab sint reprehenderit, ullam praesentium quisquam veritatis saepe amet atque ipsa
+                quibusdam est repudiandae numquam eaque doloremque dolorum fugit. Non quam necessitatibus labore impedit
+                consequuntur facere deserunt dignissimos sint minus, tempora eos quo.
+              </p>
+            </div>
+          </div>
+          <div class="contentBox" id="content2">
+            <div class="text">
+              <h2>Экскурсии </h2>
+              <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis a officiis voluptates, deleniti
+                numquam
+                itaque ex beatae quae veniam. Et vitae exercitationem non itaque quos eos nesciunt earum nemo
+                doloremque
+                ut, deleniti, possimus esse quam sapiente voluptatibus, maiores quo rerum. Ratione unde quaerat
+                aperiam
+                neque assumenda odio ab sint reprehenderit, ullam praesentium quisquam veritatis saepe amet atque ipsa
+                quibusdam est repudiandae numquam eaque doloremque dolorum fugit. Non quam necessitatibus labore
+                impedit
+                consequuntur facere deserunt dignissimos sint minus, tempora eos quo.
+              </p>
+            </div>
+          </div>
+          <div class="contentBox" id="content3">
+            <div class="text">
+              <h2>Йога</h2>
+              <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis a officiis voluptates, deleniti
+                numquam
+                itaque ex beatae quae veniam. Et vitae exercitationem non itaque quos eos nesciunt earum nemo doloremque
+                ut, deleniti, possimus esse quam sapiente voluptatibus, maiores quo rerum. Ratione unde quaerat aperiam
+                neque assumenda odio ab sint reprehenderit, ullam praesentium quisquam veritatis saepe amet atque ipsa
+                quibusdam est repudiandae numquam eaque doloremque dolorum fugit. Non quam necessitatibus labore impedit
+                consequuntur facere deserunt dignissimos sint minus, tempora eos quo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- nature gallery -->
+
+  <section class="gallery">
+    <div class="container">
+      <div class="galleryBox">
+        <div class="box"> <img src="img/karpatian1.jpg" alt="Горы"> </div>
+        <div class="box"> <img src="img/karpatian2.jpg" alt="Горы"> </div>
+        <div class="box"> <img src="img/karpatian3.jpg" alt="Горы"> </div>
+        <div class="box"> <img src="img/karpatian4.jpg" alt="Горы"> </div>
+      </div>
+      <div class="btn_consultation">
+        <p>Хочу с вами →</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- wellcomes -->
+
+  <section class="wellcome">
+    <div class="container">
+      <div class="wellcome_text">
+        <h2>Лучшее место для перезагрузки</h2>
+        <p class="wellcome_text_p">
+          Это место создано для духовного, физического развития и отдыха от городской суеты.</p>
+
+        <p class="wellcome_text_p">Каждая деталь продумана с целью восстановить ваши силы и вдохновить на новые
+          свершения: знакомство с культурой
+          Гуцульщины, прогулки в горы, баня/чан, апитерапия, экскурсии, йога.</p>
+
+        <p class="wellcome_text_p">Это уникальное место, где побывав впервые – захочется возвращаться снова и снова.
+        </p>
+        <div class="btn_consultation">
+          <p>Хочу с вами →</p>
+        </div>
+      </div>
+      <div class="wellcome_img">
+        <img src="img/slavskoe-2.jpg" alt="" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- our services -->
+
+  <section class="our_services" id="our_services">
+    <div class="container">
+      <div class="our_services_text_column">
+        <div class="our_services_text_column_inner_wrp">
+          <h4>Наши преподаватели:</h4>
+          <div class="related_links">
+            <div class="our_services_link_wrp">
+              <a class="our_services_link" data-attr="1">
+                <p class="p_number">00</p>
+                <p class="p_text">Алена</p>
+              </a>
+              <a class="our_services_inner_link" href="https://www.instagram.com/helenyogateacher/">Посмотреть→</a>
+            </div>
+            <div class="our_services_link_wrp">
+              <a class="our_services_link" data-attr="2">
+                <p class="p_number">01</p>
+                <p class="p_text">Александр</p>
+              </a>
+              <a class="our_services_inner_link" href="https://www.instagram.com/alexandr.yoga/">Посмотреть→</a>
+            </div>
+            <div class="our_services_link_wrp">
+              <a class="our_services_link" data-attr="3">
+                <p class="p_number">02</p>
+                <p class="p_text">Артем</p>
+              </a>
+              <a class="our_services_inner_link" href="https://www.instagram.com/art._.partner/">Посмотреть→</a>
+            </div>
+            <div class="our_services_link_wrp">
+              <a class="our_services_link" data-attr="4">
+                <p class="p_number">03</p>
+                <p class="p_text">Гена</p>
+              </a>
+              <a class="our_services_inner_link" href="https://www.instagram.com/gennadii_yds/">Посмотреть→</a>
+            </div>
+            <div class="our_services_link_wrp">
+              <a class="our_services_link" data-attr="5">
+                <p class="p_number">04</p>
+                <p class="p_text">Девчонки</p>
+              </a>
+              <a class="our_services_inner_link" href="https://www.instagram.com/yogadharmasamadhi/">Посмотреть→</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- our projects -->
+
+  <section class="our_projects container">
+    <div class="our_projects_text">
+      <h2>Просмотреть остальные видео</h2>
+      <div class="btn_consultation">
+        <p>Присоединиться →</p>
+      </div>
+    </div>
+    <div class="our_projects_vid">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BLOV3RJ-j6Q" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- cost -->
+  <section class="prices container" id="prices">
+    <h1>Стоимость участия</h1>
+    <div class="pricesContainer">
+      <div class="card">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="content">
+          <h2>01</h2>
+          <h3>Price1</h3>
+          <p class="cardText"> 1 Lorem 1 ipsum dolor sit amet consectetur adipisicing elit. Inventore, pariatur? Eveniet
+            quaerat eum
+            iusto,
+            sit
+            pariatur sed harum quae quod provident necessitatibus
+          </p>
+          <div class="btn_consultation">
+            <p>Read more</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="content">
+          <h2>02</h2>
+          <h3>Price2</h3>
+          <p class="cardText"> 2 Lorem 2 ipsum dolor sit amet consectetur adipisicing elit. Inventore, pariatur? Eveniet
+            quaerat eum
+            iusto,
+            sit
+            pariatur sed harum quae quod provident necessitatibus
+          </p>
+          <div class="btn_consultation">
+            <p>Read more</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="content">
+          <h2>03</h2>
+          <h3>Price3</h3>
+          <p class="cardText"> 3 Lorem 3 ipsum dolor sit amet consectetur adipisicing elit. Inventore, pariatur? Eveniet
+            quaerat eum
+            iusto,
+            sit
+            pariatur sed harum quae quod provident necessitatibus
+          </p>
+          <div class="btn_consultation">
+            <p>Read more</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- questions -->
+
+  <section class="questions container" id="questions">
+    <div class="questionBox">
+      <input type="checkbox" id="faq-1">
+      <h1><label for="faq-1">What Is This ?</label></h1>
+      <div class="p">
+        <p>This a very very simple accordion.</p>
+      </div>
+    </div>
+    <div class="questionBox">
+      <input type="checkbox" id="faq-2">
+      <h1><label for="faq-2">With Pure Css ?</label></h1>
+      <div class="p">
+        <p>Yes with pure CSS and HTML.</p>
+      </div>
+    </div>
+    <div class="questionBox">
+      <input type="checkbox" id="faq-3">
+      <h1><label for="faq-3">Where did you get inpiration ?</label></h1>
+      <div class="p">
+        <p>I was inpired by an article on css-tricks. <a href="https://css-tricks.com/the-checkbox-hack/">link to
+            article</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+
+  <footer id="contacts">
+    <div class="container">
+      <div class="copyright">
+        <img src="./img/logo1.png" alt="logo" />
+        <p>© 2020 Caliber Refinishing Solutions, Inc.</p>
+      </div>
+      <div class="nav_footer">
+        <ul>
+          <li><a href="#slider" class="scroll-to">Шапка</a></li>
+
+          <li><a href="#our_services" class="scroll-to">Преподаватели</a></li>
+          <li><a href="#prices" class="scroll-to">Цены</a></li>
+          <li><a href="#questions" class="scroll-to">Вопросы</a></li>
+          <li><a href="#contacts" class="scroll-to">Контакты
+            </a></li>
+        </ul>
+      </div>
+      <div class="location">
+        <ul>
+          <li>
+            <img src="img/icons/geoloc.svg" alt="" />
+            <p>Французский Бульвар,</p>
+          </li>
+          <li>
+            <p>Одесса,</p>
+          </li>
+          <li>
+            <p>Украина</p>
+          </li>
+        </ul>
+      </div>
+      <div class="phone_mail_wrap">
+        <div class="first_line">
+          <a class="phone" href="tel:+380967777777">(096)-777-77-77</a>
+          <p class="slash">/</p>
+        </div>
+        <p class="mail">yogadharmasamadhi@gmail.com</p>
+        <div class="copyright_plus_insta">
+          <p>© 2020 Caliber Refinishing Solutions, Inc.</p>
+          <div class="icons"><a href="https://www.instagram.com/yogadharmasamadhi/">
+              <img src="img/icons/Instagram-icon-PNG.png" alt="Мы в инстаграмм" />
+            </a>
+            <a href="https://t.me/art_partner">
+              <img src="img/icons/telegr.png" alt="Мы в инстаграмм" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
